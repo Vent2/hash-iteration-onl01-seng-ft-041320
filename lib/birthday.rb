@@ -13,7 +13,7 @@ end
 
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.map do |name, age|
-    if name == "Amanda" && age > 9 
+    if name == "Amanda" && age > 9
       return "You are too old for this."
     else
       return "Happy Birthday #{kids_name}! You are now #{age} years old!"
