@@ -12,5 +12,6 @@ end
 
 
 def age_appropriate_birthday(birthday_kids)
-
+  birthday_kids.map do |name, age|
+    birthday_kids[2] != name ? "Happy Birthday #{kids_name}! You are now #{age} years old!" : "You are too old for this."
 end
